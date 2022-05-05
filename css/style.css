@@ -6,6 +6,16 @@ font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
  }
  
+ h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+ }
+
+ ul, li {
+    list-style-type: none;
+    padding: 0;
+ }
+
  body {
     margin: 0;
     font-family: 'roboto', sans-serif;
@@ -189,28 +199,81 @@ font-family: 'Roboto', sans-serif; */
  .offers-list {
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 73px;
+    display: flex;
+    justify-content: space-between;
  }
  
  .offers-item {
     list-style-type: none;
+    margin-right: 73px;
  }
- 
- .offers-foto {
+
+ .offers-item:last-child {
+    margin-right: 0;
  }
- .card-title {
+
+.offers-foto {
+   margin-bottom: 20px;
+}
+
+ .card-title-offer {
+   font-family: 'Gelasio';
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 46px;
  }
- .card-specifications {
- }
- .card-specifications-city {
- }
- .card-specifications-time {
- }
- .card-specifications-price {
- }
- .price {
- }
- .card-specifications-rating {
- }
+
+.card-specifications {
+   list-style-type: none;
+   padding: 0;
+}
+
+.card-specifications-rt {
+   width: 180px;
+   margin-bottom: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card-specifications-city {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+   opacity: 0.6;
+}
+
+.card-specifications-rating {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+}
+
+.card-specifications-time {
+   margin-bottom: 8px;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+   opacity: 0.6;
+}
+
+.card-specifications-price {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px; 
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.card-specifications-price span {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+}
