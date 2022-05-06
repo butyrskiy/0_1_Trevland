@@ -56,7 +56,7 @@ font-family: 'Roboto', sans-serif; */
  .logo a {
     font-family: 'Ribeye';
     font-size: 24px;
-    color: ffffff;
+    color: #ffffff;
     text-decoration: none;
  }
  
@@ -223,36 +223,39 @@ font-family: 'Roboto', sans-serif; */
    line-height: 46px;
  }
 
-.card-specifications {
+.card-information {
    list-style-type: none;
    padding: 0;
 }
 
-.card-specifications-rt {
-   width: 180px;
-   margin-bottom: 8px;
+.card-information-gr {
    display: flex;
-   justify-content: space-between;
+   margin-bottom: 8px;
    align-items: center;
 }
 
-.card-specifications-city {
+.card-information-gr-svg {
+   margin-right: 10px;
+}
+
+.card-information-gr-city {
    font-family: 'Roboto';
    font-weight: 400;
    font-size: 20px;
    line-height: 30px;
    color: #000000;
    opacity: 0.6;
+   margin-right: 50px;
 }
 
-.card-specifications-rating {
+.card-information-gr-raiting {
    font-family: 'Roboto';
    font-weight: 400;
    font-size: 18px;
    line-height: 27px;
 }
 
-.card-specifications-time {
+.card-information-time {
    margin-bottom: 8px;
    font-family: 'Roboto';
    font-weight: 400;
@@ -262,7 +265,7 @@ font-family: 'Roboto', sans-serif; */
    opacity: 0.6;
 }
 
-.card-specifications-price {
+.card-information-price {
    font-family: 'Roboto';
    font-weight: 400;
    font-size: 16px;
@@ -270,7 +273,7 @@ font-family: 'Roboto', sans-serif; */
    color: rgba(0, 0, 0, 0.6);
 }
 
-.card-specifications-price span {
+.card-information-price span {
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 18px;
