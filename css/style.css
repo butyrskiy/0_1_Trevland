@@ -280,3 +280,72 @@ font-family: 'Roboto', sans-serif; */
    line-height: 27px;
    color: #000000;
 }
+
+.post {
+   display: flex;
+}
+
+.main-post {
+   display: flex;
+   flex-direction: column;
+   width: 554px;
+   margin-right: 33px;
+}
+
+.post-title {
+   font-family: 'Gelasio';
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.text-title {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: #000000;
+   opacity: 0.6;
+}
+
+.main-post-autor {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.main-post-img {
+   margin-bottom: 35px;
+}
+
+.other-post {
+   
+}
+
+.other-post-item {
+   display: flex;
+   margin-bottom: 30px;
+}
+
+.other-post-item-img {
+   margin-right: 27px;
+}
+
+.other-post-img {
+   width: 100%;
+}
+
+other-post-item-content {
+   width: 50px;
+}
+
+.other-post-autor {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+   opacity: 0.8;
+}
