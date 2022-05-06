@@ -283,6 +283,10 @@ font-family: 'Roboto', sans-serif; */
    color: #000000;
 }
 
+.blog-news {
+   margin-bottom: 142px;
+}
+
 .post {
    display: flex;
 }
