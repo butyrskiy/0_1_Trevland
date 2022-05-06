@@ -400,3 +400,38 @@ font-family: 'Roboto', sans-serif; */
    text-decoration: none;
    color: #000;
 }
+
+.footer-subscribe {
+   margin-top: 70px;
+}
+
+.footer-subscribe-title {
+   margin: 0;
+   margin-bottom: 42px;
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.input {
+   background: rgba(38, 148, 153, 0.04);
+   border: 1px solid rgb(195, 187, 187);
+   border-radius: 5px;
+   margin-right: 35px;
+   padding-left: 20px;
+   width: 195px;
+   height: 44px;
+}
+
+.footer-subsribe-button {
+   width: 103px;
+   height: 44px;
+   padding: 10px 32px;
+   color: #fff;
+   background-color: #C9453B;
+   border: none;
+   border-radius: 5px;
+}
