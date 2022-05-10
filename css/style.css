@@ -43,8 +43,8 @@ font-family: 'Roboto', sans-serif; */
     background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 900px;
     margin-bottom: 140px;
+    height: 100vh;
  }
  
  .nav {
